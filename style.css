@@ -1,0 +1,142 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+}
+/* start main section */
+.main-section header{
+    background-color: black;
+    color: white;
+}
+.main-section header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main-section header ul li{
+    padding: 15px 0px;
+}
+.main-section{
+    position: relative;
+    height: 100vh;
+    background-image: url(images/coffeehouse.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.main-section h2{
+    font-size: 60px;
+    color: white;
+    opacity: 0.7;
+    text-align: center;
+    padding-top: 100px;
+}
+.main-section .closed{
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+    color: white;
+}
+.main-section .open{
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+    background-color: black;
+    color: white;
+}
+/* end  main section */
+
+/* start section */
+/* start About */
+section{
+    width: 50%;
+    margin-left:auto ;
+    margin-right:auto ;
+}
+section .about h4{
+    background-color: black;
+    width: fit-content;
+    color: white;
+    margin: 40px auto 40px auto;
+}
+section .about p{
+    margin-bottom:15px ;
+}
+section .about .active{
+    background-color: rgb(243, 236, 226);
+    border-left: 4px solid  rgb(194, 192, 189);
+    padding: 10px;
+}
+section .about img{
+    width: 100%;
+}
+/* end  About */
+
+/* start menu */
+section .menu h4{
+    width: fit-content;
+    background-color: black;
+    color: white;
+    margin: 40px auto 40px auto;
+
+}
+section .menu .chose{
+    box-shadow: 0px 0px 10px 3px rgb(64, 55, 68);
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section .menu .types{
+    box-shadow: 0px 0px 10px 3px rgb(64, 55, 68);
+    margin-bottom: 20px;
+}
+section .menu .types p{
+    padding: 20px 10px;
+}
+section .menu p span{
+    display: block;
+    font-weight:600;
+    margin-bottom: 10px;
+}
+section .menu img{
+    width: 100%;
+}
+/* end menu */
+/* start map */
+section .map h4{
+    width: fit-content;
+    margin: 40px auto 40px auto;
+    color: white;
+    background-color: black;
+}
+section .map img{
+    width: 100%;
+}
+section .map .active1{
+    margin: 10px 0px 20px ;
+}
+section .map .active1 span{
+    color: white;
+    background-color: black;
+}
+section .map .active2{
+    margin-bottom: 10px;
+}
+section .map .active2 span{
+    font-weight: 700;
+}
+section .map input{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+}
+section .map .act {
+    width: fit-content;
+    background-color: black;
+    color: white;
+}
+/* end map */
+/* end section */
